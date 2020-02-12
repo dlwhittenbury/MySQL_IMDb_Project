@@ -1,0 +1,27 @@
+---
+documentclass: extarticle
+fontsize: 8pt
+
+Comment:  To create readme.pdf
+          $ pandoc metadata.yaml README.md -o readme.pdf
+
+title: 'MySQL IMDb Dataset Project'
+
+author:
+- D. L. Whittenbury
+
+date: February, 2020
+
+colorlinks: true
+urlcolor: teal
+linkcolor: violet
+toccolor: purple
+filecolor: red
+citecolor: orange
+
+toc: true
+
+geometry:
+- margin=0.85in
+
+---
